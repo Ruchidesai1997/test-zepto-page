@@ -105,13 +105,13 @@ function App() {
                     <div className="product-footer">
                       <strong>${item.price.toFixed(2)}</strong>
                       <button className="add-button" onClick={() => updateQuantity(item.id, 1)} type="button">
-                       +
+                       plus
                       </button>
                       <button className="add-button" onClick={() => addToCart(item)} type="button">
                         ADD
                       </button>
                       <button className="remove-button" onClick={() => updateQuantity(item.id, -1)}type="button">
-                        -
+                        minus
                       </button>
                     </div>
                   </div>
