@@ -89,7 +89,7 @@ function App() {
             <div className="section-heading">
               <div>
                 <h2 id="products-heading">
-                  {selectedCategory === 'All' ? 'All products' : selectedCategory}
+                  {selectedCategory === 'All' ? 'All products available' : selectedCategory}
                 </h2>
               </div>
             </div>
